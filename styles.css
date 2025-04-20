@@ -148,9 +148,15 @@ nav {
 
 /* Home Section */
 #home {
-    padding: 150px 0 40px;
+    padding: 190px 0 40px;
     height: auto;
     /* remove 100vh if any */
+}
+
+/* To ensure other sections stay below */
+section:not(#home) {
+    position: relative;
+    z-index: 0;
 }
 
 /* Home Section with Profile Image */
