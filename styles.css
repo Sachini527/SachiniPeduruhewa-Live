@@ -315,6 +315,11 @@ section:not(#home) {
 }
 
 .social-icons a:nth-child(4) {
+    /* Fifth icon - YouTube */
+    border-color: #FF0000;  /* YouTube red */
+}
+
+.social-icons a:nth-child(5) {
     /* Fourth icon */
     border-color: #FFFFFF;
     /* White border for Twitter/X */
@@ -340,6 +345,12 @@ section:not(#home) {
 }
 
 .social-icons a:nth-child(4):hover {
+    background: #FF0000;  /* YouTube red */
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+}
+
+.social-icons a:nth-child(5):hover {
     background: #555555;
     /* Lighter grey background for Twitter/X */
     transform: translateY(-5px);
